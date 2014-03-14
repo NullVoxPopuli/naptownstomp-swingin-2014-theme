@@ -556,6 +556,14 @@ div#footer{
 	border: #F00 0px solid;
 }
 
+#footer a {
+	color: #1c4252;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
 
 
 /* PAGE HEADER */
