@@ -6,7 +6,7 @@
 						<h1>SwingIN • Naptown Stomp Lindy Hop Society</h1>
 					</div>
 					<div>
-						<h2>All Rights Reserved • Copyright © 2014 • Privacy Policy </h2>
+						<h2>All Rights Reserved • Copyright © 2014 • <a href="privacy">Privacy Policy</a> </h2>
 					</div>
 				</div>
 			</div>
