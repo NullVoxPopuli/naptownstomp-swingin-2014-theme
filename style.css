@@ -401,6 +401,7 @@ div #threeAcross, div #fourAcross{
 	display: block;
 	color: #FFFFFF;
 	font: 18px "Kreon", sans-serif;
+	font-weight: 300;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 	bottom: 8px;
