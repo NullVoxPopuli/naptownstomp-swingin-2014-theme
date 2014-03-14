@@ -38,6 +38,10 @@ body {
 	color: #fff;
 }
 
+a {
+	color: #b9b9b9;
+}
+
 .mobileOnly, #mobileNav{
 	display: none !important;
 }
