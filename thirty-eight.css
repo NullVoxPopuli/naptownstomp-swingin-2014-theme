@@ -42,7 +42,9 @@ body {
 	padding-right: 0px !important;
 }
 
-
+a {
+	color: #b9b9b9;
+}
 
 .box-shadow-menu {
   position: relative;
