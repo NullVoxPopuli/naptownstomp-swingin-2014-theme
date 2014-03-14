@@ -698,7 +698,7 @@ div#content{
 }
 
 #content div.bio{
-	display:inline-block;
+	display: block;
 	border-bottom: #2f4e5a 2px dotted;
 	margin: 0;
 	padding: 30px 0 20px 0;
