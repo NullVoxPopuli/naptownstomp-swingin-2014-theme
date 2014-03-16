@@ -42,7 +42,9 @@ body {
 	padding-right: 0px !important;
 }
 
-
+a {
+	color: #b9b9b9;
+}
 
 .box-shadow-menu {
   position: relative;
@@ -278,7 +280,7 @@ div#news{
 	vertical-align: top;
 	color: #b9b9b9;
 	text-align: left;
-	margin: 100% 0 0 0;
+	margin: 5% 0 0 0;
 	padding: 0 0px 0 0px;
 	width: 100%;
 	_border: 1px dotted #fff;
@@ -327,42 +329,31 @@ div#news{
 
 
 
-/*  FOOTER */
+/* ====================================== FOOTER */
 div#footer{ 
-	display: none;
-	_display: inline-block;
+	_display: none;
+	display: block;
 	margin: 0 0 30px 0;
 	padding: 0;
-	_border: #00f 1px solid;
 }
 
 #footer div{
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-	padding: 0;
-	border: #fff 0px solid;
-}
-
-#footer .logoText div {
 	display: block;
-	border: #f00 0px solid;
+	vertical-align: top;
+	padding: 0;
 }
-
 
 #footer .logoImage{
 	margin: 0 0;
 }
 
-#footer img{
-	display: none;
-	_display: inline;
-	vertical-align: middle;
-	border: #0ff 0px solid;
+#footer div.logoText{
+	display: block;
+	text-align: center;
 }
 
-#footer .logoText div {
-	display: block;
+#footer img{
+	display: none;
 }
 
 #footer h1 {
