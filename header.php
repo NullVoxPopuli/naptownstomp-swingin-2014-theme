@@ -42,6 +42,7 @@
 	
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kreon:300' rel='stylesheet' type='text/css'>
 
