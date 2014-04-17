@@ -40,6 +40,7 @@ body {
 	margin-left: 0px;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+	color: #b9b9b9;
 }
 
 a {
@@ -64,7 +65,9 @@ a {
     0 0.85em 0 0 #dcdcdc;
 }
 
-
+.desktopOnly, .flexOnly{
+	display: none !important;
+}
 
 
 /*Home styles*/
@@ -156,6 +159,12 @@ div#logoSubHeader{
 	margin:0;
 }
 
+
+/*  Video on Home */
+
+#videoOnHome{
+	display: none;
+}
 
 
 
