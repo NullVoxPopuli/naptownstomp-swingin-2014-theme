@@ -43,6 +43,9 @@ a {
 .mobileOnly{
 	display: none !important;
 }
+.flexOnly{
+	display: none !important;
+}
 
 /*nav styles*/
 #mobileNav{
@@ -258,16 +261,6 @@ div#logoSubHeader{
 	text-align: left;
 	padding: 10px 0;
 	margin:0;	
-	background: rgba(22, 82, 126, 1.0); /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE2NTI3ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEzJSIgc3RvcC1jb2xvcj0iIzAzMWIyNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-	background: -moz-linear-gradient(left,  #16527e 0%, #031b25 13%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#16527e), color-stop(13%,#031b25)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #16527e 0%,#031b25 13%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #16527e 0%,#031b25 13%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #16527e 0%,#031b25 13%); /* IE10+ */
-	background: linear-gradient(to right,  #16527e 0%,#031b25 13%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16527e', endColorstr='#031b25',GradientType=1 ); /* IE6-8 */
 }
 
 div #about{
@@ -307,6 +300,51 @@ div #about{
 	margin:0;
 }
 
+
+/* ========================= Video On Home Page */
+
+#videoOnHome{
+	color: #dcdcdc;
+	display: block;
+	vertical-align: top;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+div #videoOnHome{
+	width: 940px;
+}
+
+#videoOnHome div{
+	float: left;
+	display: block;
+	width: 365px;
+}
+
+#videoOnHome div:first-child{
+	width: 575px;
+}
+
+div #videoOnHome iframe{
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+}
+
+#videoOnHome h2, #videoOnHome strong{
+	color: #dcdcdc;
+	font: 22px "Kreon", sans-serif;
+	padding:10px 0 0 0;
+	margin:0;
+}
+
+#videoOnHome ul{
+	padding:0 0 0 20px ;
+	margin:0;
+}
+
+
+
+
 /*  Home: Three Accross */
 
 #threeAcross, #fourAcross{
@@ -342,7 +380,7 @@ div #threeAcross, div #fourAcross{
 	z-index: 2;
 }
 
-#threeAcross div:nth-child(4){
+#threeAcross div:nth-child(5){
 	margin-right: 0;
 }
 
